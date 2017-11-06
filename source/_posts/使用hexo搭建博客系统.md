@@ -62,3 +62,14 @@ tags:
 ## 博客代码的备份
 1. 在GitHub上新建一个仓库, 将生成博客的代码备份到GitHub. 
 2. 每次编辑完博客, 还要 add/ commit /push, 将更改提交到GitHub仓库.
+
+## 每次生成和提交一篇新的博文需要的操作:
+1. 新建一篇文章
+        hexo new 文章名字
+然后编辑文章的内容.
+2. 生成博客文件
+        hexo generate
+3. 部署到github
+        hexo deploy  
+也可以用一行命令来代替第2,3步
+        hexo g -d        
